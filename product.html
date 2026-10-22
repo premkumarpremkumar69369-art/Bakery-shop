@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<style>
+body{
+    background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+.container{
+  margin-left:150px;
+  gap: 50px;
+}
+.row{
+  gap: 70px;
+}
+.col-md-3{
+  border-radius: 20px;
+  height: 400px;
+}
+.image-fluid{
+  margin:20px 70px;
+  border-radius: 10px;
+}
+.h2{
+  color: white;
+}
+.footer-box li{
+  list-style-type: none;
+  text-align: center;
+}
+.sociallinks-text {
+  display: flex;
+
+}
+
+</style>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-info  p-3 fw-bold ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" >CHENNAI HOT PUPS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="product.html">products</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="#">Events</a></li>
+            <li><a class="dropdown-item" href="#">Items</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">More items</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search 🔎" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search  </button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="container mt-5 ">
+  <div class="row">
+    <div class="col-md-3 bg-primary bg-gradient text-white">
+      <div class="card-image">
+        <img src="image1.jpg" class="image-fluid w-50 " alt="view image">
+      </div>
+      <div class="card-header">
+        <h1 class="card-title text-danger">CAKES</h1>
+        <p class="card-text">All the world is birthday cake, so take a piece, but not too much.</p>
+        <button class="btn view-button bg-warning">view more</button>
+      </div>
+    </div>
+    
+    <div class="col-md-3 bg-primary bg-gradient text-white">
+      <div class="card-image">
+        <img src="image2.jpg" class="image-fluid w-50" alt="view image">
+      </div>
+      <div class="card-header">
+        <h1 class="card-title text-danger">CHOCOLATES</h1>
+        <p class="">Chocolate is cheaper than therapy, and you don’t need an appointment.</p>
+        <button class="btn view-button bg-warning">view more</button>
+      </div>
+    </div>
+    
+    <div class="col-md-3 bg-primary bg-gradient text-white">
+      <div class="card-image">
+        <img src="image3.jpg" class="image-fluid w-50" alt="view image">
+      </div>
+      <div class="card-header">
+        <h1 class="card-title text-danger">RUSKS</h1>
+        <p class="">The golden rule of tea time: never rush a good rusk dip</p>
+        <button class="btn view-button bg-warning">view more</button>
+      </div>
+    </div>+
+  </div>
+</div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-3 bg-primary bg-gradient text-white">
+      <div class="card-image">
+        <img src="image4.jpg" class="image-fluid w-50" alt="view image">
+      </div>
+      <div class="card-header">
+        <h1 class="card-title text-danger">PUPS</h1>
+        <p class="">Golden hour looks better on a bakery puff.</p>
+        <button class="btn view-button bg-warning">view more</button>
+      </div>
+    </div>
+    
+    <div class="col-md-3 bg-primary bg-gradient text-white ">
+      <div class="card-image">
+        <img src="image5.jpg" class="image-fluid w-50" alt="view image">
+      </div>
+      <div class="card-header">
+        <h1 class="card-title text-danger ">DRINKS</h1>
+        <p class="card-text">Every hour is happy hour when you're day drinking.</p>
+        <button class="btn view-button bg-warning">view more</button>
+      </div>
+    </div>
+    
+    <div class="col-md-3 bg-primary bg-gradient text-white">
+      <div class="card-image">
+        <img src="image6.jpg" class="image-fluid w-50" alt="view image">
+      </div>
+      <div class="card-header">
+        <h1 class="card-title text-danger">ICE CREAM</h1>
+        <p class="">I scream, you scream, we all scream for ice cream!</p>
+        <button class="btn view-button bg-warning">view more</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <footer class="footer-header mt-5 bg-success text-white ">
+  <div class="container-fluid d-flex justify-content-between">
+    <div class="footer-box">
+      <h2 class="quick-title text-dark ms-5 mb-3">Quick Links</h2>
+      <ul>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Home</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">About</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Services</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Products</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Contact </a></li>
+      </ul>
+    </div>
+    <div class="footer-box">
+      <h2 class="service-title text-dark ms-5">Services</h2>
+      <ul>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Free delivery</a></li>
+        <li class="footer-items"><a class="nav-link text-white"href="#">Consultancy</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Catering</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Quick Orders</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Wholesale Distribution</a></li>
+      </ul>
+    </div>
+    <div class="footer-box">
+      <h2 class="product-title text-dark ms-5">Our Products</h2>
+      <ul>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Cakes</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Drinks</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Ice Creams</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Chocolates</a></li>
+        <li class="footer-items"><a class="nav-link text-white" href="#">Pups</a></li>
+      </ul>
+    </div>
+    <div class="footer-box">
+      <h2 class="contact-title text-dark ms-3">Contact us</h2>
+        <p>Email:CHP@gmail.com</p>
+        <p>Phone:+91 9475152152</p>
+        <p>Location:Bengaluru,Karnataka</p>
+    </div>
+    <div class="social-links ">            
+      <h3 class="social-title text-dark me-5">Social Links</h3>
+      <div class="social-text ms-5">
+        <p>Instagram</p>
+      </div>
+    
+      <div class="social-text ms-5">
+        <p>Facebook</p>
+      </div>
+    
+      <div class="social-text ms-5">
+        <p>Twitter</p>
+      </div>
+    </div>         
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
